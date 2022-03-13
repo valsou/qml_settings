@@ -9,6 +9,7 @@ FocusScope {
     
     property int currentSettingsPage: 0
     property var settings: Variables.settings
+    property int numberOfSettings: settings.length
     
     states: [
         State { name: "menu"; PropertyChanges { target: navBar; focus: true } },
@@ -63,7 +64,7 @@ FocusScope {
                 
                 focus: true
                 orientation: ListView.Vertical
-                model: modelData.model
+                model: settings[index].model
                 delegate: <YOUR FINAL DELEGATE TO DISPLAY THE ROWS>
                 
                 section.property: "modelData.subcategory"
@@ -78,7 +79,7 @@ FocusScope {
         
         focus: false
         orientation: ListView.Horizontal
-        model: settings
+        model: numberOfSettings
         delegate: delegate_settings
         
         currentIndex: currentSettingsPage
