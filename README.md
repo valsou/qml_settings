@@ -7,6 +7,9 @@
 - Categorize & sub-categorize your settings
 - Enable/disable a setting depending on the value of other settings
 
+## Demo
+[![Watch the video](https://img.youtube.com/vi/vHhhabZrEZo/hqdefault.jpg)](https://youtu.be/vHhhabZrEZo)
+
 ## Quick explanation
 
 All files in this repository are **mandatory** (except this README and LICENSE file of course).
@@ -76,5 +79,3 @@ Take a look at the `View/Settings.qml` file.
 | SettingArray   | :white_check_mark:       | :white_check_mark:       | :white_check_mark:         | :white_check_mark:       | :white_check_mark:         | :white_check_mark:     | :white_check_mark:         | :x:      | :x:      | :x:       |
 | SettingInteger | :white_check_mark:       | :white_check_mark:       | :white_check_mark:         | :white_check_mark:       | :white_check_mark:         | :white_check_mark:     | :x:          | :white_check_mark:     | :white_check_mark:     | :white_check_mark:      |
 
-## Demo
-https://user-images.githubusercontent.com/2614514/158072268-88bff572-4736-45c5-8394-249e0f295f59.mp4
